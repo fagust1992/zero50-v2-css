@@ -1,0 +1,121 @@
+/*cabecera*/
+
+body {
+    font-family: 'Hurricane', cursive;
+    background-image: url(../img/musi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Hurricane', cursive;
+    font-size: 50px;
+    margin: 120px 0px 0px 70px;
+}
+
+.hero {
+    background-image: url(../img/cab.png);
+    background-size: cover;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.hero2 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-right: 15px;
+    margin-top: 80px;
+}
+
+.hero2:hover {
+    color: orange
+}
+
+
+/*fin de cabecera*/
+
+
+/*inicio cuerpo de la pagina*/
+
+
+/*
+.formal {
+    margin: 50px auto;
+}
+
+th,
+td {
+    color: red;
+    font-size: 50px;
+    padding-left: 20px;
+    border: solid;
+}
+
+*/
+
+img:hover {
+    transform: scale(0.8);
+    border-radius: 30px;
+}
+
+img {
+    transition: all 0.5s ease;
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+}
+
+p {
+    font-size: 50px;
+    padding: 30px 30px 30px 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*fin de productos*/
+
+
+/* footer */
+
+footer {
+    height: 3em;
+    padding: 4em;
+    margin-top: 150px;
+    align-self: flex-end;
+}
+
+.contenedor {
+    color: rgb(224, 227, 228);
+    font-size: 100px;
+    background-image: url("../img/pie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacto,
+div,
+.contenedor a {
+    text-align: center;
+    height: 300px;
+}
+
+.contacto {
+    color: rgb(224, 227, 228);
+}
+
+.contacto {
+    color: rgb(224, 227, 228);
+}
+
+
+/*fin footer*/
